@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Container 1 all styles */
+.container-1{
+    background: #FFCD9E;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #282828;
+}
+.container-1 .heading1{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 1rem;
+}
+.container-1 .para {
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.container-1 .heading3{
+    margin: 2rem 1rem;
+    font-size: 1.3rem;
+}
+.container-1 #email{
+    margin: 0 1rem;
+    width: 16rem;
+    height: 1rem;
+    padding: 1rem;
+    border: 0.4rem solid #282828;
+    border-radius: 0.5rem;
+}
+.container-1 .button{
+    background: #282828;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    font-weight: 1000;
+}
+/* Container 2 all styles */
+.container-2{
+    background:#282828;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+.container-2 .left-list{
+   list-style: none;
+}
+.container-2 .left-list .lftlst{
+    margin: 1rem 5rem;
+}
+.container-2 .right-list{
+    list-style: none;
+    text-align: right;
+}
+.container-2 .right-list .rhtlst{
+    margin: 1rem 10rem;
+}
+.container-2 a{
+    text-decoration: none;
+}
+.container-2 .mail{
+    margin: 2rem 10rem;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* Left and Right div styles */
+.left, .right{
+    width: 40%;
+}
